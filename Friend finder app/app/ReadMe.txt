@@ -1,0 +1,2 @@
+Kim watched the video "Android Google Firebase Firestore 7 Hours Course - Build a Shop App using Kotlin" at https://www.youtube.com/watch?v=hoK9OOP1KZw to create the splash screen.
+The Merienda and SofadiOne fonts were downloaded at https://www.1001freefonts.com/. See licenses folder for more information.

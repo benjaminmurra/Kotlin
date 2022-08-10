@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/random_event_fragment_title"
+        android:fontFamily="@font/merienda_bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:text="@string/here_is_your_random_event" />
+
+    <TextView
+        android:id="@+id/random_event_title"
+        android:fontFamily="@font/sofadi_one_font"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:textColor="@color/white"
+        android:text="@string/title" />
+
+    <TextView
+        android:id="@+id/random_event_description"
+        android:fontFamily="@font/sofadi_one_font"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:textColor="@color/white"
+        android:text="@string/description" />
+
+    <TextView
+        android:id="@+id/random_event_organizer"
+        android:fontFamily="@font/sofadi_one_font"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:textColor="@color/white"
+        android:text="@string/organizer" />
+
+    <TextView
+        android:id="@+id/random_event_location"
+        android:fontFamily="@font/sofadi_one_font"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:textColor="@color/white"
+        android:text="@string/location" />
+
+    <TextView
+        android:id="@+id/start_time"
+        android:fontFamily="@font/sofadi_one_font"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:textColor="@color/white"
+        android:text="@string/start_time" />
+
+    <TextView
+        android:id="@+id/end_time"
+        android:fontFamily="@font/sofadi_one_font"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:textColor="@color/white"
+        android:text="@string/end_time" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/sofadi_one_font"
+        android:text="@string/register_me_to_this_event"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+</LinearLayout>

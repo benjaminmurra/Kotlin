@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- New colors to replace defaults, orange because of its warmth it is a color often used in color therapy
+                                         the other two colors have been chosen by the use of a color wheel using
+                                         a triadic complementary schema. Blue-purple and aqua green.
+    -->
+    <color name="orange">#FF7F27</color>
+    <color name="orange_soft">#FCB483</color>
+    <color name="blue_purple">#3F48CC</color>
+    <color name="blue_purple_soft">#797ECF</color>
+    <color name="aqua_green">#28FF6C</color>
+    <color name="aqua_green_soft">#A2FBBE</color>
+</resources>

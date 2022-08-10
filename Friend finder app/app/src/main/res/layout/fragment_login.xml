@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.upnout.ui.login.LoginFragment">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:fontFamily="@font/merienda_bold"
+        android:text="@string/app_name"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/emailEt"
+        android:layout_width="311dp"
+        android:layout_height="57dp"
+        android:fontFamily="@font/sofadi_one_font"
+        android:ems="10"
+        android:hint="@string/prompt_email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/passwordEt"
+        android:layout_width="311dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/sofadi_one_font"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="@font/sofadi_one_font"
+            android:gravity="center"
+            android:text="@string/register" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="122dp"
+            android:fontFamily="@font/sofadi_one_font"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/forgot_password" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sofadi_one_font"
+        android:textColor="@color/white"
+        android:text="@string/login" />
+
+</LinearLayout>
